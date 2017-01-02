@@ -74,3 +74,4 @@ console.log(Bar_instance.testing());
 // Objects created with new Date() inherit the Date.prototype.
 
 // The Object.prototype is on the top of the prototype chain.
+
