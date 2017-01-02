@@ -1,4 +1,5 @@
 
+// Lesson 2
 // Objects in JavaScript can also be used as Hashmaps; they mainly consist of named properties mapping to values.
 
 // Using an object literal - {} notation - it is possible to create a plain object.
