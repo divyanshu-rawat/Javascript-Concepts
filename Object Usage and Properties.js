@@ -41,4 +41,4 @@ Foo.myfunc();
 // 2 .toString(); // note the space left to the dot
 // (2).toString(); // 2 is evaluated first 
 
-console.log(2..toString());
+console.log(2..toString());  
