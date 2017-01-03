@@ -26,6 +26,19 @@ var Man = function() {
 
 Man.prototype = new Person('alex','billy');
 
+
+
+// Note: Simply using Bar.prototype = Foo.prototype will result in both objects sharing the same prototype.
+
+// Therefore, changes to either object's 
+// prototype will affect the prototype of the other as well, which in most cases is not the desired effect
+
+// When method gets called on an instance of Bar, this will now refer to that very instance.
+
+
+
+
+
 Man.prototype.test = function () {
 
 	console.log('testing Man');
@@ -39,7 +52,7 @@ Man.prototype.constructor = Man;
 
 var x = new Man();
 
-console.log(x.test());
+console.log(x.firstname);
 
 // console.log('firstname: ' + x.firstname + ', lastname: ' + x.lastname);
 
