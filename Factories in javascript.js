@@ -36,7 +36,7 @@ var instance_1 = Robot();
 
 // both calls to Robot return the same thing, a newly created object that has a property called getColor, which is a Closure.
 
-// Creating New Objects via Factories
+// Creating New Objects via Factories !
 
 // It is often recommended to not use new because forgetting its use may lead to bugs.
 
