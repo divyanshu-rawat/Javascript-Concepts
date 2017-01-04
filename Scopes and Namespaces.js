@@ -97,4 +97,18 @@ testing(10);
 
 
 
+// Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current  
+// function).
 
+
+// JavaScript hoists declarations. This means that both var statements and function declarations will be moved to the top of their enclosing scope.
+
+// To know more about Hosting refer Javascript Hoisting.js
+
+// Namespaces
+
+// A common problem associated with having only one global namespace is the likelihood of running into problems where variable names clash.
+// In JavaScript, this problem can easily be avoided with the help of anonymous wrappers.
+
+
+// For Namespaces in javascript kindley refer JavaScript Namespaces.ja
