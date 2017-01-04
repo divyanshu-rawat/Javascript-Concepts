@@ -2,7 +2,8 @@
 
 // With closures, scopes always keep access to the outer scope, in which they were defined. Since the only scoping that JavaScript has is function scope,    
 // all functions, by default, act as closures.
-
+ 
+// Emulating private variables
 
 function Counter(start) {
     var count = start;
