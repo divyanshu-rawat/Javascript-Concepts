@@ -13,6 +13,8 @@
 
 function Person(name) {
     this.name = name;
+
+    console.log(this);
 }
 
 Person.prototype.logName = function() {
@@ -21,7 +23,7 @@ Person.prototype.logName = function() {
 
 var sean = new Person('sean parker !');
 
-sean.logName();
+// sean.logName();
 
 // The above calls Person as constructor and sets the prototype of the newly created object to Person.prototype.
 
@@ -60,7 +62,7 @@ function Persona() {
 
 new Persona(); // the returned object ({name:'Charles'}), not including someValue
 
-console.log(new Persona());
+// console.log(new Persona());
 
 
 // When the new keyword is omitted, the function will not return a new object.
@@ -70,7 +72,7 @@ function Pirate() {
 }
 var somePirate = Pirate(); // somePirate is undefined
 
-console.log(Pirate());
+// console.log(Pirate());
 
 
 
