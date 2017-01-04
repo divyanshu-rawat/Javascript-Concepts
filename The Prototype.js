@@ -1,3 +1,4 @@
+// The Prototype
 // JavaScript does not feature a classical inheritance model; instead, it uses a prototypal one.
 
 // While this is often considered to be one of JavaScript's weaknesses, the prototypal inheritance model is in fact more powerful than the classic model.
@@ -59,7 +60,7 @@ console.log(Bar_instance.testing());
 // was defined on Foo. It will also have access to the property value of the one Foo instance that is its prototype. It is important to note that new Bar() 
 // does not create a new Foo instance, but reuses the one assigned to its prototype; thus, all Bar instances will share the same value property.
 
-
+// Property Lookup
 
 // When accessing the properties of an object, JavaScript will traverse the prototype chain upwards until it finds a property with the requested name.
 
