@@ -55,34 +55,6 @@ console.log(number); // 3
 
 
 
-// The language also defines a global variable that has the value of undefined; this variable is also called undefined. However, this variable is neither a 
-// constant nor a keyword of the language. This means that its value can be easily overwritten.
-
-
-// ES5 Note: undefined in ECMAScript 5 is no longer writable in strict mode, but its name can still be shadowed by for example a function with the name 
-// undefined.
-
-
-// Here are some examples of when the value undefined is returned:
-
-// Accessing the (unmodified) global variable undefined.
-
-// Accessing a declared but not yet initialized variable.
-
-// Implicit returns of functions due to missing return statements.
-
-// return statements that do not explicitly return anything.
-
-// Lookups of non-existent properties.
-
-// Function parameters that do not have any explicit value passed.
-
-// Anything that has been set to the value of undefined.
-
-// Any expression in the form of void(expression)
-
-
-
 
 
 
