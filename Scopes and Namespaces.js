@@ -111,4 +111,4 @@ testing(10);
 // In JavaScript, this problem can easily be avoided with the help of anonymous wrappers.
 
 
-// For Namespaces in javascript kindley refer JavaScript Namespaces.ja
+// For Namespaces in javascript kindley refer JavaScript Namespaces.js
