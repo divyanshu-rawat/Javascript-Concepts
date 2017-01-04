@@ -30,19 +30,16 @@ var foo = '42'
 // Script A defines a variable called foo in the global scope, and script B defines a foo in the current scope.
 
 
-function test() {
+function test_1() {
     // local scope
    foo = 21; //  Leaving out the var statement inside the function test will override the value of foo.
 }
-
-test();
-
 
 //  While this might not seem like a big deal at first, having thousands of lines of JavaScript and not using var will introduce horrible,
 //  hard-to-track-down bugs.
 
 
-// console.log(foo);
+console.log(foo);
 
 // global scope
 var items = [/* some list */];
@@ -75,7 +72,7 @@ var foo = 1;
 var bar = 2;
 var j = 2;
 
-function testing(j) {
+(function testing(j) {
     // local scope of the function test
     j = 5;
 
@@ -83,12 +80,12 @@ function testing(j) {
 
     var foo = 3;
     bar = 4;
-}
+})()
 
 
-console.log(j);
 
-testing(10);
+// console.log(j);
+
 
 // While foo and i are local variables inside the scope of the function test, the assignment of bar will override the global variable with the same name.
 
