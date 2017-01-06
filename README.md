@@ -1,4 +1,7 @@
 ###  Javascript Concepts
+
+#### [For text version og this documentation refer to my blog ] (https://divyanshu0001.wordpress.com/2017/01/05/the-most-quirky-parts-of-the-javascript/)
+ 
 ##
 JavaScript concepts is a  collection of documentation about the most quirky parts of the JavaScript programming language.
 
