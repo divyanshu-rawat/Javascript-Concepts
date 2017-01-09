@@ -1,4 +1,11 @@
 ###  Javascript Concepts
+
+#### [For text version of this documentation refer to my blog ] (https://divyanshu0001.wordpress.com/2017/01/05/the-most-quirky-parts-of-the-javascript/)
+
+#### For additional information Ping me !
+
+[![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
+ 
 ##
 JavaScript concepts is a  collection of documentation about the most quirky parts of the JavaScript programming language.
 
@@ -59,7 +66,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 7:The arguments object.js
+#### Lesson 7: The arguments object.js
 
 #### Topics Covered
 
@@ -70,7 +77,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 8:Constructors.js
+#### Lesson 8: Constructors.js
 
 #### Topics Covered 
 
@@ -78,7 +85,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 9:Factories in javascript.js
+#### Lesson 9: Factories in javascript.js
 
 #### Topics Covered
 
@@ -86,7 +93,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 10:Scopes and Namespaces.js
+#### Lesson 10: Scopes and Namespaces.js
 
 #### Topics Covered
 
@@ -95,7 +102,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 11:JavaScript Hoisting.js
+#### Lesson 11: JavaScript Hoisting.js
 
 #### Topics Covered
 
@@ -104,7 +111,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 12:JavaScript Namespaces.js
+#### Lesson 12: JavaScript Namespaces.js
 
 #### Topics Covered
 
@@ -113,7 +120,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 13:Array Iteration and Properties.js
+#### Lesson 13: Array Iteration and Properties.js
 
 #### Topics Covered
 
@@ -121,7 +128,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 14:Equality and Comparisons Types.js
+#### Lesson 14: Equality and Comparisons Types.js
 
 #### Topics Covered
 
@@ -133,7 +140,7 @@ Former knowledge of the language is strongly recommended in order to understand 
 
 ##
 
-#### Lesson 15:Constructors of Built-In Types.js
+#### Lesson 15: Constructors of Built-In Types.js
 
 #### Topics Covered
 
@@ -141,9 +148,32 @@ Former knowledge of the language is strongly recommended in order to understand 
 * Casting to a Number
 * Casting to a Boolean
 
+##
+
+#### Lesson 16: Why Not to Use eval core javascript concept.js
+
+#### Topics Covered
+
+* Why Not to Use eval core javascript
+
+##
 
 
+#### Lesson 17: Why Not to Use eval core javascript concept.js
 
+#### Topics Covered
+
+* Use of undefined
+* Use of null
+* Automatic Semicolon Insertion
+
+##
+
+#### Lesson 18: The delete Operator.js
+
+#### Topics Covered
+
+* The delete Operator
 
 
 
