@@ -99,7 +99,7 @@ for(var i = 0; i < 10; i++) {
 
 for(var i = 0; i < 10; i++) {
     setTimeout(function(e) {
-        console.log(e);  
+        // console.log(e);  
     }, 1000, i);
 }
 
@@ -117,14 +117,96 @@ for(var i = 0; i < 10; i++) {
 
 
 
+//  To better Understand CLosure let's take an example !
+
+// A Counter Dilemma
+
+// Suppose you want to use a variable for counting something, and you want this counter to be available to all functions.
+
+// You could use a global variable, and a function to increase the counter:
+
+// var counter = 0;
+
+// function add() {
+//     counter += 1;
+// }
+
+// add();
+// add();
+// add();
+
+// the counter is now equal to 3
+
+// The counter should only be changed by the add() function.
+
+// The problem is, that any script on the page can change the counter, without calling add().
+
+// If I declare the counter inside the function, nobody will be able to change it without calling add():
+
+// function add() {
+//     var counter = 0;
+//     counter += 1;
+// }
+
+// add();
+// add();
+// add();
+
+// the counter should now be 3, but it does not work !
+
+// It did not work! Every time I call the add() function, the counter is set to 1.
+
+// A JavaScript inner function can solve this.
+
+// JavaScript Nested Functions
+// All functions have access to the global scope.  
+
+// In fact, in JavaScript, all functions have access to the scope "above" them.
+
+// JavaScript supports nested functions. Nested functions have access to the scope "above" them.
+
+// In this example, the inner function plus() has access to the counter variable in the parent function:
+
+function add() {
+    var counter = 0;
+    function plus() {counter += 1;}
+    plus();    
+    return counter; 
+}
 
 
+// This could have solved the counter dilemma, if we could reach the plus() function from the outside.
 
+// We also need to find a way to execute counter = 0 only once.
 
+// We need a closure.
 
+// JavaScript Closures
+// Remember self-invoking functions? What does this function do?
 
+var add = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
 
+console.log(add);
 
+add();
+add();
+console.log(add());
+
+// Example Explained
+// The variable add is assigned the return value of a self-invoking function.
+
+// The self-invoking function only runs once. It sets the counter to zero (0), and returns a function expression.
+
+// This way add becomes a function. The "wonderful" part is that it can access the counter in the parent scope.
+
+// This is called a JavaScript closure. It makes it possible for a function to have "private" variables.
+
+// The counter is protected by the scope of the anonymous function, and can only be changed using the add function.
+
+// A closure is a function having access to the parent scope, even after the parent function has closed.
 
 
 
