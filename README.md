@@ -1,6 +1,6 @@
 ###  Javascript Concepts
 
-#### [For text version of this documentation refer to my blog ] (https://divyanshu0001.wordpress.com/2017/01/05/the-most-quirky-parts-of-the-javascript/)
+#### [For text version of this documentation refer to my blog ](https://divyanshu0001.wordpress.com/2017/01/05/the-most-quirky-parts-of-the-javascript/)
 
 #### For additional information Ping me !
 
