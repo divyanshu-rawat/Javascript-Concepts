@@ -5,21 +5,21 @@
  
 // Emulating private variables
 
-function Counter(start) {
-    var count = start;
+// function Counter(start) {
+//     var count = start;
 
-    return {
-        increment: function() {
-            count++;
-        },
+//     return {
+//         increment: function() {
+//             count++;
+//         },
 
-        get: function() {
-            return count;
-        }
-    }
-}
+//         get: function() {
+//             return count;
+//         }
+//     }
+// }
 
-var foo = Counter(4);
+// var foo = Counter(4);
 
 
 // console.log(foo);
@@ -27,8 +27,27 @@ var foo = Counter(4);
 // Here, Counter returns two closures: the function increment as well as the function get.
 // Both of these functions keep a reference to the scope of Counter and, therefore, always keep access to the count variable that was defined in that scope.
 
-foo.increment();
-foo.get(); // 5
+// foo.increment();
+// foo.get(); // 5
+
+
+
+var myfunction = adder(5);
+
+function adder(passed_value){
+
+    var x = passed_value;
+
+    return { 
+                increment:function(number){
+                x = x + number;
+                console.log(x);
+           }
+    }
+}
+
+myfunction.increment(10);
+myfunction.increment(20);
 
 // console.log(foo.get());
 
